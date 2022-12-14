@@ -243,59 +243,7 @@ if (isset($_POST['InsSubmitButton2'])) {
         </div>
     </div>
 <br><br>
-       <h2>Insert Queries</h2>
-
-    <div class="card">
-        <div class="card-body">
-            <div class="mb-3 row">
-                <label for="staticEmail" class="col-sm-2 col-form-label">Insert Query 1</label>
-                <div class="col-sm-10">
-                    <input type="text" readonly class="form-control-plaintext" id="staticEmail" value="Accident of a aircraft from airline MIL.">
-                </div>
-            </div>
-            <form action="" method="POST">
-                <div class="mb-3 row">
-                    <label for="inputPassword" class="col-sm-2 col-form-label">Input</label>
-                    <div class="col-sm-3">
-                        <input type="text" class="form-control" id="ins1_1" name="inp1_1" placeholder="Operator ID">
-                        <br>
-                        <input type="text" value="MIL" class="form-control" id="ins1_2" name="inp1_2" placeholder="Operator Name" readonly>
-                        <br>
-                        <button type="submit" name="InsSubmitButton1" class="btn btn-success mb-3">Save</button>
-                    </div>
-                </div>
-            </form>
-        </div>
-    </div>
-
-    <div class="card mt-2">
-        <div class="card-body">
-            <div class="mb-3 row">
-                <label for="staticEmail" class="col-sm-2 col-form-label">Insert Query 2</label>
-                <div class="col-sm-10">
-                    <input type="text" readonly class="form-control-plaintext" id="staticEmail" value="Insert into species table.">
-                </div>
-            </div>
-            <form action="" method="POST">
-                <div class="mb-3 row">
-                    <label for="inputPassword" class="col-sm-2 col-form-label">Input</label>
-                    <div class="col-sm-3">
-                        <input type="text" class="form-control" id="ins2_1" name="inp2_1" placeholder="Specie ID">
-                        <br>
-                        <input type="text" class="form-control" id="ins2_2" name="inp2_2" placeholder="Specie Name">
-                                                                                                    <input type="text" class="form-control" id="inp2" name="inp2">
-                    </div>
-                    <div class="col-sm-2">
-                        <button type="submit" name="SubmitButton" class="btn btn-success mb-3">Answer</button>
-                    </div>
-                    <div class="col-sm-3">
-                        <b><?= isset($ans2) ? $ans2 : '' ?></b>
-                    </div>
-                </div>
-            </form>
-        </div>
-    </div>
-<br><br>
+       
        <h2>Insert Queries</h2>
 
     <div class="card">
