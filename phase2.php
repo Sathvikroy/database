@@ -52,7 +52,7 @@ if (isset($_POST['SubmitButton'])) {
     }
 }  
 
-// handle insert requests here
+// data insert quiries
 if (isset($_POST['InsSubmitButton1'])) {
     $oid = isset($_POST['inp1_1']) ? $_POST['inp1_1'] : '';
     $oname = isset($_POST['inp1_2']) ? $_POST['inp1_2'] : '';
@@ -214,54 +214,6 @@ if (isset($_POST['InsSubmitButton2'])) {
             </form>
         </div>
     </div>
-
-
-
-
-
-
-
-    <div class="card mt-2">
-        <div class="card-body">
-            <div class="mb-3 row">
-                <label for="staticEmail" class="col-sm-2 col-form-label">Question</label>
-                <div class="col-sm-10">
-                    <input type="text" readonly class="form-control-plaintext" id="staticEmail" value="Compute the number of accidents that took place above a certain speed defined by the user.(50,100,150,300,1000,15000)">
-                </div>
-            </div>
-            <form action="" method="POST">
-                <div class="mb-3 row">
-                    <label for="inputPassword" class="col-sm-2 col-form-label">Input</label>
-                    <div class="col-sm-3">
-<h2>User Defined Queries</h2>
-
-    <div class="card">
-        <div class="card-body">
-            <div class="mb-3 row">
-                <label for="staticEmail" class="col-sm-2 col-form-label">Question</label>
-                <div class="col-sm-10">
-                    <input type="text" readonly class="form-control-plaintext" id="staticEmail" value="Compute the number of accidents occurred in a specific airport defined by the user.(KCVG,PHLI,KJAX,KMCO,PHNL,KSBD,KIAG) ">
-                </div>
-            </div>
-            <form action="" method="POST">
-                <div class="mb-3 row">
-                    <label for="inputPassword" class="col-sm-2 col-form-label">Input</label>
-                    <div class="col-sm-3">
-                        <input type="text" class="form-control" id="inp1" name="inp1">
-                    </div>
-                    <div class="col-sm-2">
-                        <button type="submit" name="SubmitButton" class="btn btn-success mb-3">Answer</button>
-                    </div>
-                    <div class="col-sm-3">
-                        <b><?= isset($ans1) ? $ans1 : '' ?></b>
-                    </div>
-                </div>
-            </form>
-        </div>
-    </div>
-
-
-
 
 
 
